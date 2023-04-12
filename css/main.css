@@ -1,17 +1,56 @@
-body {
+:root{
+    --NegroCarbon: #252429;
+    --VerdeSalvia: #5D726D;
+    --AmarilloMostaza: #D7B877;
+    --PielRosada: #D7BB95;
+    --CafeTerracota: #A3836E;
+    
+
+    --white: #fff9ed;
+    --black: #1c1302;
+}
+
+body{
     padding: 0;
     margin: 0;
+    font-family: 'Inconsolata', monospace;  
+    font-family: 'Open Sans', sans-serif;
+    color: var(--NegroCarbon);
+    background-color: var(--white);
+}
+header{
+    background-color: var(--white);
+    display: flex;
+    height: 5vh;
+    position: fixed;
+    height: 10%;
+    width: 90%;
+    margin: 2% 5%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px -10px var(--black);
+    justify-content: space-between;
+}
+
+
+
+/* body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header {
     display: flex;
-    top: 0; 
+    top: 1rem;
     position: fixed;
-    z-index: 1;
     width: 100%;
     align-items: center;
     justify-content: space-between;
     height: 10vh;
+    background-color: red;
+    box-sizing: border-box;
 }
 
 nav a {
@@ -39,4 +78,4 @@ nav a {
 
 .search {
     width: 30px;
-}
+} */
