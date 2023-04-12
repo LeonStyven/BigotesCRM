@@ -18,11 +18,13 @@ body{
 }
 header{
     background-color: var(--white);
+    z-index: 1;
     display: flex;
     height: 5vh;
     position: fixed;
     height: 12%;
     width: 90%;
+    top: 0;
     margin: 2% 5%;
     padding: 15px;
     border-radius: 10px;
@@ -83,50 +85,33 @@ nav a:hover{
     margin-top: 10px;
 
 }
-
-/* body {
-    padding: 0;
-    margin: 0;
-    background-color: negro;
-    font-family: 'Inconsolata', monospace;
-    font-family: 'Open Sans', sans-serif;
+main{
+    margin-top: 10%;
+    
 }
-
-header {
+.container{
+    width: 95%;
+    height: auto;
+    border-radius: 10px;
+    margin: auto;
     display: flex;
-    top: 1rem;
-    position: fixed;
-    width: 100%;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    height: 10vh;
-    background-color: red;
+    align-content: center;
+    box-shadow: 0px 0px 20px -15px var(--gray);
+}
+/* .gallery-container{
+    width: 90%;
+    border-radius: 10px;
     box-sizing: border-box;
-}
-
-nav a {
-    text-decoration: none;
-    font-size: 3vh;
-    margin-left: 5vh;
-}
-
-#logo {
-    width: 100px;
-    margin-top: 4vh;
-}
-
-#bar{
-    height: 6vh;
-    width: 1px;
-    position: absolute;
-    margin-left: 90vw;
-    background-color: negro;
-}
-
-#search {
-    margin-right: 5vw;
-}
-
-.search {
-    width: 30px;
+    margin-top: 1%;
 } */
+footer{
+    width: 95%;
+    margin: auto;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    background-color: blue;
+    margin-top: 10%;
+}
