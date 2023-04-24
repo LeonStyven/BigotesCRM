@@ -111,7 +111,6 @@ main{
     margin: auto;
     margin-top: 8rem;
     display: flex;
-    flex-direction: column;
     align-items: center;
     align-content: center;
     box-shadow: 0px 0px 20px -15px var(--gray);
@@ -124,16 +123,16 @@ main{
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(auto-fill, minmax(15rem,1fr));
-    
 }
 
 .product-card{
     width: auto;
     border-radius: 10px;
     cursor: pointer;
+    box-shadow: 0px 0px 30px -15px var(--gray);
 }
 .product-card:hover{
-    box-shadow: 0px 0px 50px -15px var(--gray);
+    box-shadow: 0px 0px 60px -15px var(--Teal);
     transition: 0.4s;
 }
 .product-card:not(:hover){
