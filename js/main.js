@@ -2,7 +2,7 @@ const ModalStatus = false;
 
 document.getElementById("product-card").addEventListener('click', toggleModal);
 document.getElementById("close-modal-button").addEventListener('click', toggleModal);
-
+document.getElementById("account-button").addEventListener('click', toggleAcountAccess);
 
 function toggleModal(){
     document.getElementById("modal-background").classList.toggle('modal-display')
@@ -26,4 +26,8 @@ function disableScroll() {
   
 function enableScroll() {
     window.onscroll = function() {};
+}
+
+function toggleAcountAccess(){
+    document.getElementById("acount-options").classList.toggle('acount-options-display')
 }
