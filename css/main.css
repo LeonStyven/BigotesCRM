@@ -46,7 +46,7 @@ header{
     border: none;
     box-shadow: 0px 0px 10px -5px var(--ForestGreen);
     border-radius: 10px;
-    color: var(--021314);
+    color: var(--black);
     padding: 10px;
     cursor: pointer;
     box-sizing: border-box;
@@ -61,7 +61,7 @@ header{
 #selected-button:hover{
     background-color: var(--white);
     transition: 0.3s;
-    color: var(--021314);
+    color: var(--black);
     
 }
 .header-option-button:hover{
@@ -92,7 +92,13 @@ header{
     justify-content: space-around;
     box-shadow: 0px 0px 20px -8px var(--gray);
 }
-
+.account-button ul li{
+    display: flex;
+    padding: 0px 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
 .account-button ul li a{
     display: inline-block;
     padding: 15px;
@@ -102,7 +108,7 @@ header{
     width: 70%;
     border-radius: 10px;
 }
-.account-button ul li a:hover{
+.account-button ul li:hover{
     box-shadow: 0px 0px 10px -5px var(--ForestGreen);
     transition: 0.3s;
 }
