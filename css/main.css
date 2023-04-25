@@ -71,6 +71,30 @@ header{
 .header-option-button:not(:hover){
     transition: 0.3s;
 }
+/*Aqui el menú desplegable*/
+.account-button ul {
+    display: none;
+    position: absolute;
+    width: 100%;
+    list-style: none;
+    background: var(--SeafoamGreen); 
+}
+
+.account-button ul li a {
+    display: block;
+    padding: 15px;
+    color: var(--black);
+    text-decoration: none;
+}
+
+.account-button ul li a:hover {
+    color: var(--ForestGreen);
+    transition: 0.3s;
+}
+
+.account-button:hover .dropdown {
+    display: block;
+}
 
 nav{
     width: 50%;
