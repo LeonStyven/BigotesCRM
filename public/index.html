@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/modalLogin.css">
     <!-- <link rel="stylesheet" href="../css/carrousel.css"> -->
     <title>Bigotes</title>
 
@@ -253,6 +254,40 @@
         </div>
     </div>
     
+    <div class="modal-login ">
+        <!--Esta es la caja trasera de los formularios (/^▽^)/-->
+        <div id="back__box" class="back-box back-box-reverse">
+            <div id="back__box__login" class="back-box-login">
+                <h3>¿Ya tienes una cuenta?</h3>
+                <p>Inicia sesión para comenzar a comprar</p>
+                <button id="back-box-btn-login">Iniciar Sesión</button>
+            </div>
+            <div id="back__box__register" class="back-box-register-active" class="back-box-register">
+                <h3>¿Aún no tienes una cuenta?</h3>
+                <p>Regístrate para iniciar sesión</p>
+                <button id="back-box-btn-register">Regístrarse</button>
+            </div>
+            <!--Esta es la caja de los formularios (≧∇≦*)-->
+            <div class="container-forms">
+                <!--Login-->
+                <form id="form__login" action="" class="form-login">
+                    <h2>Iniciar Sesión</h2>
+                    <input type="text" placeholder="Correo" name="mail-login">
+                    <input type="password" placeholder="Contraseña" name="password-login">
+                    <button type="submit">Ingresar</button>
+                </form>
+                <!--Register-->
+                <form id="form_register" action="" class="form-register">
+                    <h2>Regístrarse</h2>
+                    <input type="text" placeholder="Correo Electrónico" name="mail-register">
+                    <input type="password" placeholder="Contraseña" name="password-register">
+                    <input type="password" placeholder="Confirmar Contraseña" name="confirm-password-register">
+                    <button type="submit">Regístrarse</button>
+                </form>
+            </div>  
+        </div>
+    </div>
+
     <footer>
         <div class="footer-form-container">
             <div>
@@ -279,7 +314,7 @@
     </footer>
 
     <script src="../js/main.js"></script>
-<!-- 
-<script src="../js/carrousel.js"></script> -->
+    <script src="../js/modalLogin.js"></script>
+    <!-- <script src="../js/carrousel.js"></script> -->
 </body>
 </html>
