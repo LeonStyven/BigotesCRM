@@ -9,15 +9,19 @@ document.getElementById("back-box-btn-register").addEventListener("click", chang
 function changeLogin(event){
     backBoxLogin.classList.toggle("back-box-login-active");
     backBoxRegister.classList.toggle("back-box-register-active");
+    backBoxLogin.classList.add("animate__fadeInLeft");
     formLogin.style.display = "flex";
     formRegister.style.display = "none";
+    formLogin.classList.add("animate__fadeInLeft");
     backBox.classList.toggle("back-box-reverse");   
 }
 
 function changeRegister(event){
     backBoxLogin.classList.toggle("back-box-login-active");
     backBoxRegister.classList.toggle("back-box-register-active");
+    backBoxRegister.classList.add("animate__fadeInRight");
     formRegister.style.display = "flex";
     formLogin.style.display = "none";
+    formRegister.classList.add("animate__fadeInRight");
     backBox.classList.toggle("back-box-reverse");  
 }
