@@ -275,15 +275,15 @@
                     <h2>Iniciar Sesión</h2>
                     <input type="text" placeholder="Correo" name="mail-login">
                     <input type="password" placeholder="Contraseña" name="password-login">
-                    <button type="submit">Ingresar</button>
+                    <button id="button-login" type="submit">Ingresar</button>
                 </form>
                 <!--Register-->
                 <form id="form_register" action="" class="animate__animated  form-register">
                     <h2>Regístrarse</h2>
-                    <input type="text" placeholder="Correo Electrónico" name="mail-register">
-                    <input type="password" placeholder="Contraseña" name="password-register">
-                    <input type="password" placeholder="Confirmar Contraseña" name="confirm-password-register">
-                    <button type="submit">Regístrarse</button>
+                    <input type="text" placeholder="Usuario" id="user-name" required>
+                    <input type="text" placeholder="Correo Electrónico" id="mail-register" required>
+                    <input type="password" placeholder="Contraseña" id="password-register" required>
+                    <button id="button-register" type="submit">Regístrarse</button>
                 </form>
             </div>  
         </div>
@@ -317,5 +317,13 @@
     <script src="../js/main.js"></script>
     <script src="../js/modalLogin.js"></script>
     <!-- <script src="../js/carrousel.js"></script> -->
+
+    <!-- Scripts de configuración de Firebase-->
+    <script src="https://www.gstatic.com/firebasejs/5.5.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/ui/6.0.1/firebase-ui-auth.js"></script>
+    <script type="module" src="../js/config/configFirebase.js"></script>
+
+    <!-- Scripts para el control de los usuarios-->
+    <script type ="module" src="../js/auth/register.js"></script>
 </body>
 </html>
