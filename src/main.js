@@ -1,3 +1,7 @@
+import './app/signupForm.js'
+
+
+
 const ModalStatus = false;
 document.getElementById("account-button").addEventListener('click', toggleAcountAccess);
 document.getElementById("close-modal-button").addEventListener('click', toggleModal);
@@ -18,21 +22,6 @@ function toggleModal(){
         enableScroll;
     }
 }
-// function disableScroll() {
-//     // Get the current page scroll position
-//     scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-//     scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
-  
-//         // if any scroll is attempted, set this to the previous value
-//         window.onscroll = function() {
-//             window.scrollTo(scrollLeft, scrollTop);
-//         };
-// }
-  
-// function enableScroll() {
-//     window.onscroll = function() {};
-// }
-
 function toggleAcountAccess(){
     document.getElementById("acount-options").classList.toggle('acount-options-display')
 }
