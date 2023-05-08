@@ -45,24 +45,25 @@
                 </button>
             </li>
             <li>
-                <button id="account-button" class=" off-focus account-button header-option-button">
-                    <span class="material-symbols-outlined">
-                        person
-                    </span>
+                <button id="account-button" class="off header-option-button usr-button">
+                    <div class="profile-image">
+                        <img class="userProfileImage" src="../assets/img/user-not-logged-icon.jpg" alt="">
+                    </div>
+                    
                     <!--Dropdown es el coso de inicio de sesion y registro, los botoncitos esos jsjsjsjsjs uwu-->
-                    <div id="acount-options">
+                    <div class="" id="acount-options">
                         <ul class="dropdown">
                             <li class=" header-option-button">
                                 <span class="material-symbols-outlined">
-                                    login
+                                    person
                                 </span>
-                                <a href="">Iniciar Sesión</a>
+                                <a href="">Mi cuenta</a>
                             </li>
-                            <li class=" header-option-button">
+                            <li id="logout" class=" header-option-button">
                                 <span class="material-symbols-outlined">
-                                    how_to_reg
+                                    logout
                                 </span>
-                                <a href="">Registrarse</a>
+                                <a  href="http://127.0.0.1:5500/src/">Cerrar sesion</a>
                             </li>
                         </ul>
                     </div>
@@ -275,14 +276,14 @@
                 <!--Login-->
                 <form id="form__login" action="" class="animate__animated  form-login">
                     <h2>Iniciar Sesión</h2>
-                    <input type="text" placeholder="Correo" name="mail-login">
-                    <input type="password" placeholder="Contraseña" name="password-login">
+                    <input type="email" placeholder="Correo" name="mail-login" id="login-email" required>
+                    <input type="password" placeholder="Contraseña" name="password-login" id="login-password" required>
                     <button id="button-login" type="submit">Ingresar</button>
                 </form>
                 <!--Register-->
                 <form id="form_register" action="" class="animate__animated  form-register">
                     <h2>Regístrarse</h2>
-                    <input type="text" placeholder="Correo Electrónico" id="signup-mail-register" required>
+                    <input type="email" placeholder="Correo Electrónico" id="signup-mail-register" required>
                     <input type="password" placeholder="Contraseña" id="signup-password-register" required>
                     <button id="button-register" type="submit">Regístrarse</button>
                 </form>

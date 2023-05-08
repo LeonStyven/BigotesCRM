@@ -1,3 +1,4 @@
+/* Variables del css */
 :root{
     --SeafoamGreen: #4a9f8f;
     --Teal: #257d6e;
@@ -8,6 +9,8 @@
     --black: #021314;
 }
 
+/* Estilos generales */
+
 body{
     padding: 0;
     margin: 0;
@@ -16,6 +19,9 @@ body{
     color: var(--black);
     background-color: var(--white);
 }
+
+
+/* Estilizacion del header */
 header{
     background-color: var(--white);
     z-index: 1;
@@ -73,6 +79,8 @@ header{
 .header-option-button:not(:hover){
     transition: 0.3s;
 }
+
+
 /*Aqui el menú desplegable*/
 #acount-options ul{
     display: none;
@@ -92,28 +100,61 @@ header{
     justify-content: space-around;
     box-shadow: 0px 0px 20px -8px var(--gray);
 }
-.account-button ul li{
+.acount-options-display ul li{
     display: flex;
     padding: 0px 10px;
     align-items: center;
     justify-content: space-between;
     margin: 10px;
 }
-.account-button ul li a{
+.acount-options-display ul li a{
     display: inline-block;
-    padding: 15px;
+    padding-left: 20px;
     color: var(--black);
     text-decoration: none;
     font-size: 15px;
     width: 70%;
     border-radius: 10px;
 }
-.account-button ul li:hover{
+.acount-options-display ul li:hover{
     box-shadow: 0px 0px 10px -5px var(--ForestGreen);
     transition: 0.3s;
 }
 
+/*Ocultar completamente el dropdown si no se esta loggeado */
+.notlogged{
+    display: none !important;
+}
 
+
+/* Estilos de la foto de perfil */
+.profile-image{
+    object-fit: cover;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+.profile-image:hover{
+    opacity: 20%;
+    transition: 0.3s;
+}
+.profile-image:not(:hover){
+    transition: 0.3s;
+}
+.profile-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.usr-button{
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Barra de navegacion */
 nav{
     width: 50%;
     display: flex;
@@ -142,6 +183,8 @@ nav a:not(:hover){
     margin-top: 10px;
 
 }
+
+/* Zona principal */
 main{
     margin-top: 10%;
     
@@ -157,7 +200,6 @@ main{
     align-content: center;
     box-shadow: 0px 0px 20px -15px var(--gray);
 }
-
 .products-container {
     width: 90%;
     height: auto;
@@ -166,7 +208,6 @@ main{
     gap: 20px;
     grid-template-columns: repeat(auto-fill, minmax(15rem,1fr));
 }
-
 .product-card{
     width: auto;
     border-radius: 10px;
@@ -180,7 +221,6 @@ main{
 .product-card:not(:hover){
     transition: 0.5s;
 }
-
 .product-card .product-image img{
     width: 100%;
     height: 200px;
@@ -189,7 +229,6 @@ main{
     border-top-right-radius: 10px;
     box-shadow: 0px 0px 20px -15px var(--gray);
 }
-
 .product-card .product-info {
     width: 100%;
     display: flex;
@@ -215,13 +254,7 @@ main{
     pad: 0;
 }
 
-/* .gallery-container{
-    width: 90%;
-    border-radius: 10px;
-    box-sizing: border-box;
-    margin-top: 1%;
-} */
-
+/* Pie de pagina */
 footer{
     width: 95%;
     margin: auto;
@@ -295,6 +328,7 @@ footer{
     border-radius: 10px;
 }
 
+/* Ventana modal */
 #modal-background{
     display: none;
 }
