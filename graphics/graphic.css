@@ -1,0 +1,138 @@
+:root{
+    --SeafoamGreen: #4a9f8f;
+    --Teal: #257d6e;
+    --ForestGreen: #005a4c;
+
+    --white: #faffff;
+    --gray: #5b6664;
+    --black: #021314;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inconsolata', monospace;  
+    font-family: 'Open Sans', sans-serif;
+    color: var(--black);
+    background-color: var(--white);
+}
+
+.selected-button{
+    background-color: var(--ForestGreen);
+    color: var(--white);
+}
+.selected-button:hover{
+    background-color: var(--white);
+    border-color: var(--black);
+    transition: 0.3s;
+    color: var(--black);
+}
+
+#header-show{
+    background-color: var(--white);
+    z-index: 1;
+    display: flex;
+    height: 5vh;
+    position: fixed;
+    height: 12%;
+    width: 90%;
+    top: 0;
+    margin: 2% 5%;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px -8px var(--gray);
+    justify-content: space-between;
+    place-items: center;
+    box-sizing: border-box;
+}
+
+.BigotesLogo{
+    height: 100%;
+    border-radius: 50%;
+}
+
+nav{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    text-decoration: none;
+    color: var(--black);
+    padding: 10px;
+    border-radius: 10px;
+}
+nav a:hover{
+    transition: 0.3s;
+    background-color: var(--ForestGreen);
+    color: var(--white);
+}
+nav a:not(:hover){
+    transition: 0.3s;
+}
+/*
+.vertical-Separator{
+    height: 50%;
+    width: 1px;
+    background-color: var(--gray);
+    margin-right: 20px;
+    border-radius: 1px;
+    margin-top: 10px;
+}
+*/
+.header-button {
+    background-color: var(--white);
+    border: none;
+    box-shadow: 0px 0px 10px -5px var(--ForestGreen);
+    border-radius: 10px;
+    color: var(--black);
+    padding: 10px;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin-left: 10px;
+    width: 45px;
+    height: 45px;
+}
+
+.header-button:hover {
+    background-color: var(--ForestGreen);
+    transition: 0.3s;
+    color: var(--white);
+}
+
+#header-hide {
+    height: 4vh;
+    height: 5%;
+    width: 90%;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    padding: 5px;
+    margin-left: 5%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: var(--white);
+    box-shadow: 0px 0px 20px -8px var(--gray);
+    box-sizing: border-box;
+}
+
+#slide-button-hide {
+    margin-right: 10px;
+}
+
+.hide {
+    display: none !important;
+}
+
+.container {
+    width: 95vw;
+    height: 80vh;
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+    padding: 60px;
+    justify-content: center;
+}
