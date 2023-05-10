@@ -1,3 +1,4 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Hoja de Estilos-->
-    <link rel="stylesheet" href="../graphic.css">
+    <link rel="stylesheet" href="../styles/graphic.css">
+    <link rel="stylesheet" href="../styles/chartStyle.css">
     <!-- Assets de google para fuentes e iconos -->
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
@@ -43,9 +45,27 @@
 
     <main>
         <div id="users" class="container">
-            Aquí va las graficas de usuarios
+            <div class="container-graph">
+                <canvas class="graph" id="myChart-1"></canvas>
+            </div>
+            <div class="container-graph">
+                <canvas class="graph" id="myChart-2"></canvas>
+            </div>
+            <div class="container-graph">
+                <canvas class="graph" id="myChart-3"></canvas>
+            </div>
+            <div class="container-graph">
+                <canvas class="graph" id="myChart-4"></canvas>
+            </div>
+            <div class="container-graph">
+                <canvas class="graph" id="myChart-5"></canvas>
+            </div>
+            <div class="container-graph">
+                <canvas class="graph" id="myChart-6"></canvas>
+            </div>
         </div>
     </main>
-    <script src="../graphic.js"></script>
+    <script src="../scripts/graphic.js"></script>
+    <script src="../scripts/appUsers.js"></script>
 </body>
 </html>
