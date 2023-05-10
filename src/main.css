@@ -121,6 +121,7 @@ header{
     transition: 0.3s;
 }
 
+
 /*Ocultar completamente el dropdown si no se esta loggeado */
 .notlogged{
     display: none !important;
@@ -400,7 +401,9 @@ footer{
     gap: 5px;
 
 }
-
+.close-modal-button{
+    cursor: pointer;
+}
 .product-images-list ul li img{
     width: 100px;
     border-radius: 10px;
