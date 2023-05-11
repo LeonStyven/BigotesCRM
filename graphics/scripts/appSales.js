@@ -12,6 +12,7 @@ new Chart(ctx1, {
     datasets: [{
       label: 'Ventas Totales al Mes',
       data: [12, 19, 20, 10, 25, 0],
+      backgroundColor: ['#acd0e8', '#acd0e8', '#acd0e8', '#acd0e8', '#acd0e8'],
       borderWidth: 1
     }]
   },
@@ -31,6 +32,7 @@ new Chart(ctx2, {
     datasets: [{
       label: 'Ventas Totales al Año',
       data: [100, 160, 170, 50, 0],
+      backgroundColor: ['#acd0e8', '#acd0e8', '#acd0e8', '#acd0e8'],
       borderWidth: 1
     }]
   },
@@ -50,6 +52,7 @@ new Chart(ctx3, {
     datasets: [{
       label: 'Productos más Vendidos',
       data: [80,71,70, 0],
+      backgroundColor: ['#acd0e8', '#acd0e8', '#acd0e8'],
       borderWidth: 1
     }]
   },
@@ -69,6 +72,7 @@ new Chart(ctx4, {
       datasets: [{
         label: 'Ventas por Producto',
         data: [40, 71, 80, 30, 50, 70, 10, 0],
+        backgroundColor: ['#acd0e8', '#acd0e8', '#acd0e8', '#acd0e8', '#acd0e8', '#acd0e8', '#acd0e8'],
         borderWidth: 1
       }]
     },

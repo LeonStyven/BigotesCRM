@@ -12,6 +12,7 @@ new Chart(ctx1, {
     datasets: [{
       label: 'Conexiones por Mes',
       data: [12, 19, 20, 5, 25, 0],
+      backgroundColor: ['#acd0e8', '#acd0e8', '#acd0e8', '#acd0e8', '#acd0e8'],
       borderWidth: 1
     }]
   },
@@ -31,6 +32,7 @@ new Chart(ctx2, {
     datasets: [{
       label: 'Conexiones por Año',
       data: [50, 60, 30, 81, 0],
+      backgroundColor: ['#acd0e8', '#acd0e8', '#acd0e8', '#acd0e8'],
       borderWidth: 1
     }]
   },
@@ -50,6 +52,7 @@ new Chart(ctx3, {
     datasets: [{
       label: 'Tiempo de Conexión',
       data: [20, 40, 71, 80, 30, 0],
+      backgroundColor: ['#acd0e8', '#acd0e8', '#acd0e8', '#acd0e8', '#acd0e8'],
       borderWidth: 1
     }]
   },
@@ -69,6 +72,7 @@ new Chart(ctx4, {
     datasets: [{
       label: 'Visitas por Categoria',
       data: [60,30, 0],
+      backgroundColor: ['#acd0e8', '#acd0e8'],
       borderWidth: 1
     }]
   },
