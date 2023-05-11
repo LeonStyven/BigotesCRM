@@ -31,7 +31,7 @@ new Chart(ctx2, {
     labels: ['2020', '2021', '2022', '2023'],
     datasets: [{
       label: 'Usuarios Registrados por Año',
-      backgroundColor: ['#acd0e8', '#acd0e8', '#acd0e8', '#acd0e8'],
+      backgroundColor: ['#4a9f8f', '#4a9f8f', '#4a9f8f', '#4a9f8f'],
       data: [50, 60, 30, 81, 0],
       borderWidth: 1
     }]
@@ -52,7 +52,7 @@ new Chart(ctx3, {
     datasets: [{
       label: 'Numero Usuarios por Edad',
       data: [40, 71, 80, 30, 0],
-      backgroundColor: ['#acd0e8', '#acd0e8', '#acd0e8', '#acd0e8'],
+      backgroundColor: ['#b3e099', '#b3e099', '#b3e099', '#b3e099'],
       borderWidth: 1
     }]
   },
@@ -72,7 +72,7 @@ new Chart(ctx4, {
     datasets: [{
       label: 'Porcentaje Usuarios que han Comprado',
       data: [60,10,30, 0],
-      backgroundColor: ['#acd0e8', '#acd0e8', '#acd0e8'],
+      backgroundColor: ['#ffeaad', '#ffeaad', '#ffeaad'],
       borderWidth: 1
     }]
   },
@@ -92,7 +92,7 @@ new Chart(ctx5, {
     datasets: [{
       label: 'Numero de PQRSs por Mes',
       data: [12, 19, 3, 5, 2, 0],
-      backgroundColor: ['#acd0e8', '#acd0e8', '#acd0e8', '#acd0e8', '#acd0e8'],
+      backgroundColor: ['#d4ceaa', '#d4ceaa', '#d4ceaa', '#d4ceaa', '#d4ceaa'],
       borderWidth: 1
     }]
   },
@@ -112,7 +112,7 @@ new Chart(ctx6, {
     datasets: [{
       label: 'Numero de PQRSs por Año',
       data: [30, 18, 10, 41, 0],
-      backgroundColor: ['#acd0e8', '#acd0e8', '#acd0e8', '#acd0e8'],
+      backgroundColor: ['#e5db84', '#e5db84', '#e5db84', '#e5db84'],
       borderWidth: 1
     }]
   },
